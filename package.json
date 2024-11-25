@@ -6,8 +6,10 @@
     "dev": "vite --open --host",
     "build": "vite build",
     "preview" : "vite preview --open --host",
-    "deploy" : "surge ./dist moonscryer-results.surge.sh",
-    "postdeploy" : "start chrome https://moonscryer-results.surge.sh"
+    "deploy-main" : "surge ./dist moonscryer-results.surge.sh",
+    "postdeploy-main" : "start chrome https://moonscryer-results.surge.sh",
+    "deploy-develop" : "surge ./dist moonscryer-results-test.surge.sh",
+    "postdeploy-develop" : "start chrome https://moonscryer-results-test.surge.sh"
   },
   "keywords": [],
   "author": "",
