@@ -18,6 +18,13 @@
 * {
   box-sizing: border-box;
 }
+body {
+  overflow: hidden;
+  min-height: 100vh;
+}
+canvas {
+  pointer-events: none;
+}
 main {
   display: grid;
   font-family: "Hanken Grotesk", sans-serif;
@@ -184,7 +191,6 @@ main {
     font-size: 70%;
   }
   body {
-    min-height: 100vh;
     background: var(--PaleBlue);
     display: grid;
     place-items: center;

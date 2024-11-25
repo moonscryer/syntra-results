@@ -5,14 +5,17 @@
   "scripts": {
     "dev": "vite --open --host",
     "build": "vite build",
-    "preview" : "vite preview --open --host",
-    "deploy-main" : "surge ./dist moonscryer-results.surge.sh",
-    "postdeploy-main" : "start chrome https://moonscryer-results.surge.sh",
-    "deploy-develop" : "surge ./dist moonscryer-results-test.surge.sh",
-    "postdeploy-develop" : "start chrome https://moonscryer-results-test.surge.sh"
+    "preview": "vite preview --open --host",
+    "deploy-main": "surge ./dist moonscryer-results.surge.sh",
+    "postdeploy-main": "start chrome https://moonscryer-results.surge.sh",
+    "deploy-develop": "surge ./dist moonscryer-results-test.surge.sh",
+    "postdeploy-develop": "start chrome https://moonscryer-results-test.surge.sh"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "canvas-confetti": "^1.9.3"
+  }
 }
